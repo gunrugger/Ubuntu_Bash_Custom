@@ -21,3 +21,4 @@ alias svntag='svn-tag.py'
 alias svntagQA='svn-tag.py "tagging for QA"'
 alias vagres='vagrant halt; vagrant up'
 alias vagerrorlog='vagrant ssh; tail -f /var/log/apache2/error.log'
+alias vpnlunar="sudo openvpn ~/programs/linux/vpn/lunar\ logic/pfsense-udp-1194-a.lopez.ovpn"
