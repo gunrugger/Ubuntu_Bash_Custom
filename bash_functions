@@ -10,14 +10,14 @@ vagresmondb () {
     # db.dropDatabase\(\)
     # exit
     # mongorestore --drop -d \"$1\" /home/project/dump/\"$1\"
+    # mongorestore --drop -d "" /home/project/dump/""
     # exit
 }
 
 mkproject(){
     mkdir $1;
     cd $1;
-    mkdir assets code docs dump upload; 
+    mkdir assets docs dump upload; 
     ls; 
-    cd code; 
     git clone $2 ./;
 }
