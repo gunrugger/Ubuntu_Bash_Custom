@@ -1,5 +1,6 @@
-testfunct(){
-    echo \"$1\";
+gitfastpush(){
+    git commit -am '$1';
+    git push;
 }
 
 mkcd(){
@@ -10,5 +11,7 @@ mkcd(){
 mkmv(){
     mkdir $1;
     mv !($1) ./$1;
-    ll;
+    cd $1;
+    la;
 }
+
