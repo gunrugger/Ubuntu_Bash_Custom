@@ -11,19 +11,9 @@ alias ..9='cd ../../../../../../../../..; la'
 alias ..10='cd ../../../../../../../../../..; la'
 alias ~~='cd ~/'
 
-alias bfresh='source ~/.bashrc'
-alias devsumongo='echo 5fc6d90e77668c66d260652f144d08272c7f421a061b7a'
+alias gitcommit="git commit -am "
 alias gituncommit='git reset --soft HEAD^'
 alias gitstage='git stage * */.*'
-alias rf='rm -rf'
 alias remove-apt-repository='add-apt-repository --remove'
 alias rununity='LD_PRELOAD=/lib/x86_64-linux-gnu/libresolv.so.2 /opt/Unity/Editor/Unity'
-alias please="sudo !!"
-alias pytests='nosetests --rednose'
-alias svntag='svn-tag.py'
-alias svntagQA='svn-tag.py "tagging for QA"'
 alias updade="sudo apt-get update; sudo apt-get upgrade"
-alias vag='vagrant'
-alias vagres='vagrant halt; vagrant up'
-alias vagrebirth='vagrant destroy; vagrant up'
-alias vagerrorlog='vagrant ssh; tail -f /var/log/apache2/error.log'
