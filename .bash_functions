@@ -21,3 +21,7 @@ bak(){
 		cp "$var" "$var".bak
 	done
 }
+
+sedReplaceLines(){
+	sed ':a;N;$!ba;s,\n,'"$1"',g'
+}
