@@ -15,3 +15,9 @@ mkmv(){
     mv .* current >/dev/null 2>&1
 }
 
+bak(){
+	for var in "$@"
+	do
+		cp "$var" "$var".bak
+	done
+}
