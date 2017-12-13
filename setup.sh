@@ -1,1 +1,1 @@
-cat ~/.bash_custom/.bashrc >> ~/.bashrc
+cat ~/.bash_custom/appendTo.bashrc >> ~/.bashrc
