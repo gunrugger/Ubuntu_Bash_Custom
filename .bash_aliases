@@ -14,17 +14,16 @@ alias ~~='cd ~/'
 # ls'
 alias a="ls -A"
 alias l="ls -lAh"
-
 alias c="clear; clear;"
-alias copy="xclip -sel clip"
+
+alias startDigitalMediaServer='mediatomb -e eno1 -a /media/gunrugger/digital_media/video/ -a /media/gunrugger/digital_media/music/ -d'
+alias stopDigitalMediaServer='pkill -INT mediatomb'
+
 alias gitUncommit='git reset --soft HEAD^'
 alias gitStage='git stage * */.*'
-alias grep-history='history | grep -v grep | grep'
-alias grep-nmap-open="sed -e 's/[^ ]*filtered[^ ]*//g' | sed -e 's/[^ ]*closed[^ ]*//g' | grep open | sed 's/: */: /g' | sed 's/, */, /g' | sed 's/[, ]*$//g' | sort -Vu"
-alias remove-apt-repository='add-apt-repository --remove'
-alias grep-ping-sweep="grep -v '# Nmap ' | sed 's/(.*)//g' | cut -f2 -d' ' | sed ':a;N;\$!ba;s/\n/, /g' | tee >(copy); echo -e '\nCopied to clipboard!\n'"
-alias grep-ping-sweep-screenshot='grep -v "# Nmap " | sed "s/(.*)//g" | sort -uV'
-alias please='sudo $(fc -ln -1'
+
+alias copy="xclip -sel clip"
+alias grep-history='history | grep'
 alias esed='sed -E'
 alias shrug='echo ¯\\_\(ツ\)_/¯'
 alias screenCommands="printf \"screen -S name-of-new-screen              #create new screen and name it.
