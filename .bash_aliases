@@ -33,3 +33,4 @@ ctl-a, then ctrl-d                        #detach all screens
 \""
 alias ssl-cert='sslscan --show-certificate --no-ciphersuites --no-renegotiation --no-fallback --no-compression --no-heartbleed'
 alias updade='sudo apt-get update; sudo apt-get upgrade'
+alias cdSmash="cd /media/gunrugger/digital_media/games/roms/gamecube/melee/"
