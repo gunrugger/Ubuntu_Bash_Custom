@@ -1,6 +1,9 @@
 # Ubuntu_Bash_Custom
 My aliases and functions.
 
+Make sure that you set up a privet key in the github account.
+Don't forget to ssh-add the private key on your local machine.
+
 Run the following in bash:
 ```
 git clone git@github.com:gunrugger/Ubuntu_Bash_Custom.git ~/.bash_custom
